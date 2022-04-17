@@ -5,11 +5,11 @@
 template<typename T, int size>
 class TPQueue {
   // реализация шаблона очереди с приоритетом на кольцевом буфере
-private:
+ private:
   T arr[100];
   int f;
   int l;
-public:
+ public:
   TPQueue() : f(0), l(0) {}
   void push(T uni) {
     int lat = l++;
